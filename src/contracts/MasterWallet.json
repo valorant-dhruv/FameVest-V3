@@ -1,0 +1,92 @@
+{
+  "contractName": "MasterWallet",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.14+commit.80d49f37\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MasterWallet.sol\":\"MasterWallet\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/MasterWallet.sol\":{\"keccak256\":\"0x0b71861e30d16ca5059b04a970ecc4b013d97cb53abbe9ee469b2c2f704dbbab\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://db1b8da434565df12172bb583a1e4740367bfd4f9fb89e4da4fbbd2fb524674b\",\"dweb:/ipfs/QmSjknQFfRLyhbE4RHBL5qPm2cKRZju2DW4mTfHLnBQ4GH\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220a5fa294b4d2a766410fe4632b02c9e3433ae4ed2810610101c0c204f20b08b3664736f6c634300080e0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220a5fa294b4d2a766410fe4632b02c9e3433ae4ed2810610101c0c204f20b08b3664736f6c634300080e0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "75:966:2:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "75:966:2:-:0;;;;;",
+  "source": "//SPDX-License-Identifier:UNLICENSED\r\n\r\npragma solidity >=0.4.0 <0.9.0;\r\n\r\ncontract MasterWallet{\r\n\r\n    // //This is the mapping which maps the addresses to the amount of ethers that they deposit\r\n    // mapping(address=>uint) private deposits;\r\n\r\n    // //This is the function where the users deposit ethers to the smart contract\r\n    // function deposit() payable public{\r\n    //     //The requirement is that the account must be real\r\n    //     require(msg.sender!=address(0),\"The sender must be a real address\");\r\n    // }\r\n\r\n    // function getbalance(address _account) public returns(uint)\r\n    // {\r\n    //     return _account.balance;\r\n    // }\r\n\r\n    // function getbalance() public view returns(uint)\r\n    // {\r\n    //     return address(this).balance;\r\n    // }\r\n\r\n    // fallback() external payable\r\n    // {\r\n    //     //If for some reason if a user deposits ethers through some external ways then in that case the ethers are deposited back to the account\r\n    //     payable(msg.sender).transfer(msg.value);\r\n    // }\r\n\r\n\r\n}\r\n",
+  "sourcePath": "C:\\Users\\Bhaskar\\Desktop\\web 3.0\\FameVest\\truffle\\contracts\\MasterWallet.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/MasterWallet.sol",
+    "exportedSymbols": {
+      "MasterWallet": [
+        525
+      ]
+    },
+    "id": 526,
+    "license": "UNLICENSED",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 524,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "40:31:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MasterWallet",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 525,
+        "linearizedBaseContracts": [
+          525
+        ],
+        "name": "MasterWallet",
+        "nameLocation": "84:12:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 526,
+        "src": "75:966:2",
+        "usedErrors": []
+      }
+    ],
+    "src": "40:1003:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.14+commit.80d49f37.Emscripten.clang"
+  },
+  "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x114D22fC71cC56dE36a0a347fD14C339DD5cB0Fb",
+      "transactionHash": "0x55dfb93fac6f9a5e263d492d3843aea57843f24ff274316a9d6d8c313c2ecd4c"
+    },
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x1EBee28e68eF5ecd62385fC9a644df7F2C8db406",
+      "transactionHash": "0x6f313666112df2c435b4dcd23ddf76012f93d6753eeaa0db3e1e5ffc22a4838a"
+    }
+  },
+  "schemaVersion": "3.4.9",
+  "updatedAt": "2022-08-30T14:19:27.252Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

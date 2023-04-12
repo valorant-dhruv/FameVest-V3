@@ -1,0 +1,529 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.inputs1 {
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 575px;
+  width: 400px;
+  height: 210px;
+  background: #212121;
+  border-radius: 7px;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  background: black;
+  color: white;
+}
+
+.mainhome {
+  margin-left: 20px;
+}
+
+.cardhome {
+  color: white;
+  align-items: center;
+  background-color: #212121;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 15px;
+  width: 65rem;
+  height: 115px;
+}
+
+.columnhome {
+  margin-top: 40px;
+  position: relative;
+}
+
+.topicshome {
+  font-weight: bold;
+  color: white;
+  font-size: 1.1rem;
+  display: flex;
+  width: 100rem;
+  height: 25px;
+}
+
+.emptyhome {
+  width: 150px;
+}
+
+.nothinghome {
+  width: 50px;
+}
+
+.daymovehome {
+  width: 170px;
+}
+
+.marketcap {
+  width: 160px;
+}
+
+.mchome {
+  width: 150px;
+}
+
+.pricehome h1 {
+  margin-left: 80px;
+}
+
+.daymovement {
+  width: 175px;
+  color: #63f31e;
+}
+
+.banner {
+  position: absolute;
+}
+
+.propic {
+  position: relative;
+  top: 120px;
+  left: 40px;
+}
+
+.profileinfo {
+  background: black;
+  color: white;
+  position: relative;
+  top: 120px;
+}
+
+.pricetopic {
+  margin-left: 40px;
+}
+
+.profileinfo p {
+  position: relative;
+  top: 20px;
+}
+
+.profileinfo h1 {
+  font-weight: bold;
+}
+
+.bio {
+  width: 35%;
+  height: 200px;
+  float: left;
+}
+
+.ownership {
+  position: relative;
+  width: 65%;
+  float: right;
+  top: -10px;
+  left: 200px;
+}
+
+.impinfo {
+  position: relative;
+  top: 120px;
+  width: 800px;
+  height: 80px;
+  border-radius: 7px;
+  background-color: #212121;
+}
+
+.num {
+  position: absolute;
+  top: 27px;
+}
+
+.infochunk1 {
+  color: #fff;
+  position: absolute;
+  top: 12px;
+  left: 30px;
+}
+
+.infochunk2 {
+  color: #fff;
+  position: absolute;
+  top: 1px;
+  left: 320px;
+}
+
+.infochunk3 {
+  color: #fff;
+  position: absolute;
+  top: 12px;
+  left: 620px;
+}
+
+.graph {
+  position: absolute;
+  top: 260px;
+}
+
+.inputs {
+  position: absolute;
+  width: 400px;
+  height: 210px;
+  background: #212121;
+  top: 295px;
+  left: 575px;
+  border-radius: 7px;
+}
+
+.first {
+  color: black;
+  position: absolute;
+  width: 375px;
+  height: 50px;
+  background: #4a4a4a;
+  border-radius: 7px;
+  top: 15px;
+  left: 12.5px;
+}
+
+.second {
+  color: black;
+  position: absolute;
+  width: 375px;
+  height: 50px;
+  background: #4a4a4a;
+  border-radius: 7px;
+  top: 80px;
+  left: 12.5px;
+}
+
+.first input {
+  position: absolute;
+  top: 13px;
+  width: 25%;
+  left: 20px;
+  border-radius: 7px;
+}
+
+.first h1 {
+  position: relative;
+  top: 10px;
+  left: 275px;
+  color: white;
+}
+
+.second input {
+  position: absolute;
+  top: 13px;
+  width: 25%;
+  left: 20px;
+  border-radius: 7px;
+}
+
+.second h1 {
+  position: relative;
+  top: 10px;
+  left: 275px;
+  color: white;
+}
+
+.arrow {
+  position: absolute;
+  top: 50px;
+  left: 175px;
+}
+
+.buy {
+  position: absolute;
+  top: 142px;
+  left: 13px;
+  color: white;
+}
+
+.buy button {
+  border-radius: 7px;
+  width: 188px;
+  height: 55px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom right, #20bf55, #01baef);
+}
+
+.balance {
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 158px;
+  left: 230px;
+}
+
+.both {
+  display: flex;
+  background: black;
+}
+
+.profilemain {
+  margin-left: 10px;
+}
+
+.linegraph {
+  margin-left: 50px;
+  margin-top: 150px;
+}
+
+.investedinfo {
+  position: relative;
+  top: -200px;
+  left: 1080px;
+  width: 400px;
+  height: 300px;
+  background: #212121;
+  border-radius: 7px;
+}
+
+.investedinfo h2 {
+  color: grey;
+  font-weight: bold;
+  font-size: 2rem;
+  position: relative;
+  top: 10px;
+  left: 25px;
+}
+
+.investedinfo h1 {
+  position: relative;
+  top: 20px;
+  left: 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.investedinfo h3 {
+  position: relative;
+  top: 50px;
+  left: 25px;
+  color: white;
+}
+
+.investedinfo p {
+  position: relative;
+  top: 100px;
+  left: 25px;
+  color: white;
+  font-weight: ital;
+}
+
+.topicsport {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: white;
+  display: flex;
+  width: 72rem;
+  height: 25px;
+}
+
+.topprofile {
+  width: 150px;
+}
+
+.cardport {
+  margin-left: 50px;
+  color: white;
+  align-items: center;
+  background-color: #212121;
+  margin-bottom: 10px;
+  display: flex;
+  border-radius: 15px;
+  width: 72rem;
+  height: 115px;
+}
+
+.emptyport {
+  width: 20px;
+}
+
+.profilepic {
+  width: 100px;
+}
+
+.name {
+  width: 140px;
+}
+
+.holdings {
+  width: 175px;
+}
+
+.price {
+  width: 120px;
+}
+
+.daymove {
+  width: 100px;
+}
+
+.sevenday {
+  width: 250px;
+}
+
+.profitloss {
+  width: 150px;
+}
+
+.sell button {
+  width: 80px;
+  height: 35px;
+  border-radius: 7px;
+  font-size: 1.3rem;
+  background-image: linear-gradient(to bottom right, #3718f6, #3499ff);
+}
+
+.column {
+  position: relative;
+  top: -190px;
+}
+
+.mainwallet img {
+  margin: 50px 0px 0px 100px;
+}
+
+.mainwallet h1 {
+  margin: 20px 0px 0px 0px;
+  font-size: 2rem;
+}
+
+.address {
+  width: 430px;
+  border-radius: 15px;
+  padding: 10px;
+  border: 2px solid white;
+}
+
+.rightofwallet {
+  height: 100%;
+  position: relative;
+  top: -52.5%;
+  left: 700px;
+}
+
+.balancebox h1 {
+  font-weight: bold;
+}
+
+.balancebox {
+  border-radius: 7px;
+  width: 600px;
+  height: 200px;
+  background: #212121;
+  padding-top: 6px;
+  padding-left: 50px;
+}
+
+.amountcolor {
+  color: #2c87f0;
+  font-weight: bold;
+}
+
+.bwinput {
+  margin-top: 20px;
+  width: 600px;
+  height: 65px;
+  background: #212121;
+}
+
+.bwinput input {
+  background: #212121;
+  align-items: center;
+  font-size: 1.2rem;
+  margin: 15px;
+  padding: 5px;
+  width: 200px;
+}
+
+.bwinput h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  float: right;
+  margin: 15px;
+}
+
+.waamount {
+  justify-content: space-between;
+  margin-top: 33px;
+  display: flex;
+}
+
+.waamount button {
+  width: 295px;
+  height: 65px;
+}
+
+.wbutton {
+  border-radius: 7px;
+  background-image: linear-gradient(to bottom right, #f61818, #9e00ff);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.abutton {
+  border-radius: 7px;
+  background-image: linear-gradient(to bottom right, #82ff6d, #00b8ba);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.fwalletbalance {
+  margin-top: 40px;
+}
+
+.fwalletbalance table {
+  width: 680px;
+}
+
+.fwalletbalance table td {
+  width: 150px;
+  height: 40px;
+}
+
+.fwalletbalance table th {
+  text-align: left;
+}
+
+.cointransactions {
+  margin-top: 40px;
+}
+
+.cointransactions table {
+  width: 680px;
+}
+
+.cointransactions table td {
+  width: 150px;
+  height: 40px;
+}
+
+.cointransactions table th {
+  text-align: left;
+}
